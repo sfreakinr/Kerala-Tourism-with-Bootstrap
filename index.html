@@ -6,59 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="top_dest.css">
     <title>Kerala Tourism</title>
 </head>
 
 <body>
-    <header class="bg-header">
-        <nav class="navbar bg-dark navbar-expand-lg p-0 m-0" data-bs-theme="dark">
+    <div class="head-section">
+        <nav class="navbar navbar-expand-lg py-4">
             <div class="container">
-                <a class="navbar-brand me-auto" href="#">Kerala Tourism</a>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Kerala Tourism</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ms-auto mb-lg-0 mb-2">
-                            <li class="nav-item">
-                                <a class="nav-link  mx-lg-2active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#dist">Districts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#">Learn More</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="#">Contact Us</a>
-                            </li>
-                        </ul>
+                <a class="navbar-brand fw-bold" href="#">Kerala Tourism</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-0 ms-md-3 mb-2">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between">
-                    <a href="#" class="login-button mx-lg-2">Login</a>
-                    <a href="#" class="signup-button mx-lg-2">Sign up</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <li class="nav-item ms-0 ms-md-3 mb-2">
+                            <a class="nav-link" href="#">Districts</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3 mb-2">
+                            <a class="nav-link" href="#">Learn More</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3 mb-2">
+                            <a class="nav-link" class="logsignbtnfx" href="#">Contact </a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3 mb-2 ">
+                            <a class="px-4 py-2 btn btn-success" class="logsignbtnfx" href="#">Login </a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3 mb-2">
+                            <a class="px-4 py-2 btn btn-success" id="contactbtn" href="#">Sign Up </a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </nav>
-        <!-- Hero Section -->
-        <section class="hero-section py-5">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-lg-6 text-start">
-                        <h1 class="text-white" id="hsec1">Discover Kerala: God's Own Country</h1>
+    </div>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-4 g-5">
+                <div class="col-12 col-md-6">
+                    <div class="text-center text-md-start">
+                        <h1 class="text-black" id="hsec1">Discover Kerala: <span id="godsown">God's Own Country</span>
+                        </h1>
                         <p id="hsecp">Unveil the magic of Kerala, where serene backwaters meet lush green landscapes,
                             and
                             age-old traditions blend seamlessly with modernity. Embark on a journey through
@@ -67,112 +62,150 @@
                         <button class="btn btn-outline-success">Explore More</button>
 
                     </div>
-                    <div class="col-12 col-lg-6 mx-auto">
-                        <img src="images/kerala_tourism_logo.png" class="hero-image imgae-fluid"
-                            alt="Kerala Tourism Logo">
-                    </div>
                 </div>
-            </div>
-        </section>
-
-    </header>
-
-
-    <section class="top_dest">
-        <h1 class="text-center top-dest-txt">Top Destination</h1>
-        <div class="container-fluid py-5 mt-5">
-            <div class="row">
-                <div class="col-12 col-lg-5">
-                    <img src="./images/tly_fort.jpg" class="img-fluid" alt="Thalassery Fort">
-                </div>
-                <div class="col-12 col-lg-7">
-                    <h2 class="fw-bolder">Thalassery Fort</h2>
-                    <p>Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of Kerala, India, is a
-                        historical monument built by the British East India Company in 1708. Positioned strategically along the
-                        Malabar Coast, the fort played a significant role in the spice trade and served as a military
-                        stronghold. Constructed with massive laterite blocks, the fort features high walls, secret tunnels, and
-                        intricately designed bastions. It stands as a testament to the colonial architecture and the historical
-                        conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist attraction,
-                        offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    Column
-                </div>
-                <div class="col-12 col-lg-6">
-                    Column
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    Column
-                </div>
-                <div class="col-12 col-lg-6">
-                    Column
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    Column
-                </div>
-                <div class="col-12 col-lg-6">
-                    Column
+                <div class="col-12 col-lg-6 mx-auto">
+                    <img src="images/kerala_tourism_logo.png" class="hero-image imgae-fluid" alt="Kerala Tourism Logo">
                 </div>
             </div>
         </div>
+    </header>
+
+
+    <div class="container">
+        <h2 class="fs-1 fw-bold text-center pt-5 pb-5:" id="topdestxt">Top Destination</h2>
+        <div class="row align-items-center gx-3 gy-5 py-5 mt-5">
+            <div class="col-12 col-md-12 col-lg-5">
+                <img src="images/tly_fort.jpg" class="img-fluid mx-auto d-block" alt="Thalassery Fort" />
+            </div>
+            <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+                <h2 class="fw-bold fs-1 pb-3">Thalassery Fort</h2>
+                <p class="about-text">Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of
+                    Kerala, India, is
+                    a
+                    historical monument built by the British East India Company in 1708. Positioned strategically
+                    along the
+                    Malabar Coast, the fort played a significant role in the spice trade and served as a military
+                    stronghold. Constructed with massive laterite blocks, the fort features high walls, secret
+                    tunnels, and
+                    intricately designed bastions. It stands as a testament to the colonial architecture and the
+                    historical
+                    conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist
+                    attraction,
+                    offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-5">
+                <img src="images/tly_fort.jpg" class="img-fluid mx-auto d-block" alt="Thalassery Fort" />
+            </div>
+            <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+                <h2 class="fw-bold fs-1 pb-3">Thalassery Fort</h2>
+                <p class="about-text">Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of
+                    Kerala, India, is
+                    a
+                    historical monument built by the British East India Company in 1708. Positioned strategically
+                    along the
+                    Malabar Coast, the fort played a significant role in the spice trade and served as a military
+                    stronghold. Constructed with massive laterite blocks, the fort features high walls, secret
+                    tunnels, and
+                    intricately designed bastions. It stands as a testament to the colonial architecture and the
+                    historical
+                    conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist
+                    attraction,
+                    offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-5">
+                <img src="images/tly_fort.jpg" class="img-fluid mx-auto d-block" alt="Thalassery Fort" />
+            </div>
+            <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+                <h2 class="fw-bold fs-1 pb-3">Thalassery Fort</h2>
+                <p class="about-text">Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of
+                    Kerala, India, is
+                    a
+                    historical monument built by the British East India Company in 1708. Positioned strategically
+                    along the
+                    Malabar Coast, the fort played a significant role in the spice trade and served as a military
+                    stronghold. Constructed with massive laterite blocks, the fort features high walls, secret
+                    tunnels, and
+                    intricately designed bastions. It stands as a testament to the colonial architecture and the
+                    historical
+                    conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist
+                    attraction,
+                    offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-5">
+                <img src="images/tly_fort.jpg" class="img-fluid mx-auto d-block" alt="Thalassery Fort" />
+            </div>
+            <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+                <h2 class="fw-bold fs-1 pb-3">Thalassery Fort</h2>
+                <p class="about-text">Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of
+                    Kerala, India, is
+                    a
+                    historical monument built by the British East India Company in 1708. Positioned strategically
+                    along the
+                    Malabar Coast, the fort played a significant role in the spice trade and served as a military
+                    stronghold. Constructed with massive laterite blocks, the fort features high walls, secret
+                    tunnels, and
+                    intricately designed bastions. It stands as a testament to the colonial architecture and the
+                    historical
+                    conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist
+                    attraction,
+                    offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
+            </div>
+        </div>
+    </div>
 
 
 
-        <article>
-            <img src="./images/tly_fort.jpg" alt="Thalassery Fort" height="250px">
-            <p style="padding-left: 150px;"><b>Thalassery Fort</b></p>
-            <p>Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of Kerala, India, is a
-                historical monument built by the British East India Company in 1708. Positioned strategically along the
-                Malabar Coast, the fort played a significant role in the spice trade and served as a military
-                stronghold. Constructed with massive laterite blocks, the fort features high walls, secret tunnels, and
-                intricately designed bastions. It stands as a testament to the colonial architecture and the historical
-                conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist attraction,
-                offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
-        </article>
 
-        <article>
-            <img src="./images/jatayu_nature_park.jpg" alt="Jatayu Nature Park" height="300px">
-            <p style="padding-left: 150px;"><b>Jatayu Nature Park</b></p>
-            <p>Jatayu Nature Park, also known as Jatayu Earth’s Center, is a unique and sprawling tourism destination in
-                Chadayamangalam, Kerala, India. The park is named after the mythical bird Jatayu from the Indian epic
-                Ramayana, who is believed to have fallen at this site while trying to rescue Sita from Ravana. The park
-                features the world's largest bird sculpture, a magnificent representation of Jatayu with a wingspan of
-                150 feet and a height of 70 feet. Beyond its mythological significance, the park offers a blend of
-                adventure, culture, and wellness with its rock climbing, rappelling, and paintball facilities, along
-                with a digital museum and a multi-dimensional theatre. Jatayu Nature Park embodies the harmony between
-                nature and mythology, providing visitors with an immersive and enriching experience.</p>
-        </article>
 
-        <article>
-            <img src="images/muzhapilangad_beach.jpg" alt="muzhapilangad beach" height="300px">
-            <p style="padding-left: 150px;"><b>Muzhapilangad Beach</b></p>
-            <p>Muzhappilangad Beach, located in the Kannur district of Kerala, India, is renowned for being one of the
-                longest drive-in beaches in Asia. Stretching over four kilometers along the Malabar Coast, this pristine
-                beach allows visitors to drive right along the shoreline, offering a unique and exhilarating experience.
-                The beach is flanked by black rocks, which protect it from strong currents, making it a safe spot for
-                swimming and water sports. With its picturesque sunsets, serene ambiance, and opportunities for
-                adventure, Muzhappilangad Beach is a popular destination for both locals and tourists seeking natural
-                beauty and excitement.</p>
-        </article>
 
-        <article>
-            <img src="./images/kochi_backwaters.jpg" alt="Kochi backwaters" height="300px">
-            <p style="padding-left: 150px;"><b>Kochi Backwaters</b></p>
-            <p>The Kochi Backwaters, part of the extensive network of Kerala's backwaters, offer a tranquil and scenic
-                escape in the vibrant city of Kochi. These serene waterways, interconnected with lakes, canals, and
-                rivers, provide a unique perspective of Kerala's lush landscapes and rich biodiversity. Traditional
-                houseboats, known as kettuvallams, glide along the backwaters, offering tourists a peaceful and
-                immersive experience amidst coconut groves, paddy fields, and quaint villages. The Kochi Backwaters are
-                a testament to the region's harmonious blend of natural beauty and cultural heritage, making them a
-                must-visit for anyone exploring Kerala.</p>
-        </article>
+    <article>
+        <img src="./images/tly_fort.jpg" alt="Thalassery Fort" height="250px">
+        <p style="padding-left: 150px;"><b>Thalassery Fort</b></p>
+        <p>Thalassery Fort, located in Thalassery (Tellicherry) in the Kannur district of Kerala, India, is a
+            historical monument built by the British East India Company in 1708. Positioned strategically along the
+            Malabar Coast, the fort played a significant role in the spice trade and served as a military
+            stronghold. Constructed with massive laterite blocks, the fort features high walls, secret tunnels, and
+            intricately designed bastions. It stands as a testament to the colonial architecture and the historical
+            conflicts between the British and local rulers. Today, Thalassery Fort is a popular tourist attraction,
+            offering panoramic views of the Arabian Sea and glimpses into the region's colonial past.</p>
+    </article>
+
+    <article>
+        <img src="./images/jatayu_nature_park.jpg" alt="Jatayu Nature Park" height="300px">
+        <p style="padding-left: 150px;"><b>Jatayu Nature Park</b></p>
+        <p>Jatayu Nature Park, also known as Jatayu Earth’s Center, is a unique and sprawling tourism destination in
+            Chadayamangalam, Kerala, India. The park is named after the mythical bird Jatayu from the Indian epic
+            Ramayana, who is believed to have fallen at this site while trying to rescue Sita from Ravana. The park
+            features the world's largest bird sculpture, a magnificent representation of Jatayu with a wingspan of
+            150 feet and a height of 70 feet. Beyond its mythological significance, the park offers a blend of
+            adventure, culture, and wellness with its rock climbing, rappelling, and paintball facilities, along
+            with a digital museum and a multi-dimensional theatre. Jatayu Nature Park embodies the harmony between
+            nature and mythology, providing visitors with an immersive and enriching experience.</p>
+    </article>
+
+    <article>
+        <img src="images/muzhapilangad_beach.jpg" alt="muzhapilangad beach" height="300px">
+        <p style="padding-left: 150px;"><b>Muzhapilangad Beach</b></p>
+        <p>Muzhappilangad Beach, located in the Kannur district of Kerala, India, is renowned for being one of the
+            longest drive-in beaches in Asia. Stretching over four kilometers along the Malabar Coast, this pristine
+            beach allows visitors to drive right along the shoreline, offering a unique and exhilarating experience.
+            The beach is flanked by black rocks, which protect it from strong currents, making it a safe spot for
+            swimming and water sports. With its picturesque sunsets, serene ambiance, and opportunities for
+            adventure, Muzhappilangad Beach is a popular destination for both locals and tourists seeking natural
+            beauty and excitement.</p>
+    </article>
+
+    <article>
+        <img src="./images/kochi_backwaters.jpg" alt="Kochi backwaters" height="300px">
+        <p style="padding-left: 150px;"><b>Kochi Backwaters</b></p>
+        <p>The Kochi Backwaters, part of the extensive network of Kerala's backwaters, offer a tranquil and scenic
+            escape in the vibrant city of Kochi. These serene waterways, interconnected with lakes, canals, and
+            rivers, provide a unique perspective of Kerala's lush landscapes and rich biodiversity. Traditional
+            houseboats, known as kettuvallams, glide along the backwaters, offering tourists a peaceful and
+            immersive experience amidst coconut groves, paddy fields, and quaint villages. The Kochi Backwaters are
+            a testament to the region's harmonious blend of natural beauty and cultural heritage, making them a
+            must-visit for anyone exploring Kerala.</p>
+    </article>
     </section>
     <hr>
 
