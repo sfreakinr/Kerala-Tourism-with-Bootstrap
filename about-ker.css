@@ -1,0 +1,90 @@
+.ab-ker {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ab-ker h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.ab-ker img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ab-ker p {
+    padding-left: 0;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #495057;
+}
+
+span {
+    color: #28a745;
+}
+
+#culture {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+#culture h2 {
+    color: #343a40;
+}
+
+#aboutkertxt {
+    color: #28a745!important;
+    margin-bottom: 30px;
+}
+
+#culture img {
+    max-width: 100%;
+    height: auto;
+}
+
+#culture p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-bottom: 2px solid #28a745;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    color: #28a745;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #495057;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.ab-ker img {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 8px;
+    object-fit: cover;
+}
