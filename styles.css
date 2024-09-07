@@ -66,6 +66,10 @@ transition: ease-in 0.14s;
 
 /* Hero Section */
 
+.hero-section{
+    box-shadow: 1.5rem;
+}
+
 #hsec1{
     font-size: 3.75rem;
     font-weight: 600;
@@ -90,4 +94,9 @@ transition: ease-in 0.14s;
 
 #topdestxt{
     color: #188754;
+}
+
+.card{
+    position: relative;
+    border-radius: 7px;
 }
